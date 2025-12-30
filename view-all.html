@@ -11,104 +11,102 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <link rel="stylesheet" href="view-all.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="page-dark">
 
-  <!-- <header class="topbar-only">
-    <div class="topbar-color d-flex justify-content-between align-items-center">
+  <header class="top-header">
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active h-100">
+          <img src="images/hero-pharma.jpg" class="d-block w-100 h-100" alt="Hero 1">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="images/hero-pharma.jpg" class="d-block w-100 h-100" alt="Hero 2">
+        </div>
+        <div class="carousel-item h-100">
+          <img src="images/hero-pharma.jpg" class="d-block w-100 h-100" alt="Hero 3">
+        </div>
+      </div>
+    </div>
+
+    <div class=" topbar-color d-flex justify-content-between align-items-center">
       <div class="logo d-flex align-items-center gap-2">
         <img src="images/logo.png" alt="Santi" />
         <span class="logo-text">Sante Intranet</span>
       </div>
-
       <nav class="header-nav d-flex align-items-center">
         <div class="menu"></div>
-
         <ul class="main-menu mx-auto">
           <li><a href="index.html">Home</a></li>
-
           <li class="has-dropdown">
             <a href="#">Organization</a>
             <ul class="dropdown">
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">Overview</li>
                 <li><a href="#">Mission, Vision & Culture</a></li>
               </div>
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">Departments</li>
                 <li><a href="#">All Departments Directory</a></li>
               </div>
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">Leadership Corner</li>
                 <li><a href="#">CEO Messages & Updates</a></li>
               </div>
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">Success Stories</li>
                 <li><a href="#">Awards & Employee Spotlights</a></li>
               </div>
             </ul>
           </li>
-
           <li class="has-dropdown">
             <a href="#">Employees</a>
             <ul class="dropdown">
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">My Profile</li>
                 <li><a href="#">View & Edit Profile</a></li>
               </div>
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">Employee Directory</li>
                 <li><a href="#">Org Chart</a></li>
               </div>
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">Meeting Rooms</li>
                 <li><a href="#">Room Booking</a></li>
               </div>
             </ul>
           </li>
-
           <li class="has-dropdown">
             <a href="#">Documents</a>
             <ul class="dropdown">
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">Policies & Procedures</li>
                 <li><a href="#">Forms & Templates</a></li>
               </div>
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">HR Documents</li>
                 <li><a href="#">HR related Documents</a></li>
               </div>
             </ul>
           </li>
-
           <li><a href="#">IT Assets</a></li>
-
           <li class="has-dropdown">
             <a href="#">Tools & Systems</a>
             <ul class="dropdown">
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">HRMS</li>
                 <li><a href="#">HR Management System</a></li>
               </div>
               <div class="dropdown-arrow">
                 <li class="dropdown-heading">SAP ERP</li>
               </div>
               <div class="dropdown-arrow">
-                <li class="dropdown-heading">BI & Analytics</li>
                 <li><a href="#">Business Intelligence</a></li>
               </div>
             </ul>
           </li>
         </ul>
-
         <div class="macccount">
           <a href="#" class="header-link">Welcome: Talat</a>
         </div>
       </nav>
     </div>
-  </header> -->
+    <section class="hero-section" style="display: none;">
+    </section>
+  </header>
 
   <main class="container main-section mt-4 mb-5">
 
@@ -132,7 +130,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Breast Cancer Awareness Session</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -142,7 +140,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Leadership Workshop at IBA Karachi</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -152,7 +150,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">45th KarOphth Annual Congress</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -162,7 +160,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Internal Culture & Engagement Activity</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
         <article class="news-card">
@@ -171,7 +169,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Internal Culture & Engagement Activity</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
         <article class="news-card">
@@ -180,7 +178,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Internal Culture & Engagement Activity</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
       </div>
@@ -201,7 +199,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">New Chairman Appointment - PPMA</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -211,7 +209,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Annual Performance Reviews Schedule</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -221,7 +219,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">IT System Maintenance Notice</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -231,7 +229,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Director’s Message Update</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
         <article class="news-card">
@@ -240,7 +238,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">IT System Maintenance Notice</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -250,7 +248,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Director’s Message Update</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
       </div>
@@ -282,7 +280,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Q1 Results Exceed Expectations</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -292,7 +290,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">New Product Launch Next Month</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -302,7 +300,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Employee Wellness Program Expanded</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -312,7 +310,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Leadership Updates & Strategy Direction</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
         <article class="news-card" data-category="hr">
@@ -321,7 +319,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Employee Wellness Program Expanded</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -331,7 +329,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Leadership Updates & Strategy Direction</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
       </div>
@@ -362,7 +360,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Q1 Results Exceed Expectations</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -372,7 +370,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">New Product Launch Next Month</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -382,7 +380,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Employee Wellness Program Expanded</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -392,7 +390,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Leadership Updates & Strategy Direction</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
         <article class="news-card" data-category="hr">
@@ -401,7 +399,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Employee Wellness Program Expanded</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
 
@@ -411,7 +409,7 @@
           </div>
           <div class="news-card__body">
             <h4 class="news-card__title">Leadership Updates & Strategy Direction</h4>
-            <a href="#" class="news-card__link">Read More</a>
+            <a href="news-detail.html" class="news-card__link">Read More</a>
           </div>
         </article>
       </div>
@@ -435,5 +433,53 @@
     })();
   </script>
 
+  <footer class="footer-section mt-5 pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="logo d-flex align-items-center gap-2">
+            <div class="logo-box">
+              <img src="images/logo-footer.png" alt="Santi" />
+            </div>
+            <span class="footer-logo-text">Sante Intranet</span>
+          </div>
+          <p class="footer-text">Your central hub for company information, resources, and collaboration.</p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="footer-title">Employee Resources</h6>
+          <ul class="footer-links">
+            <li><a href="#">Employee Directory</a></li>
+            <li><a href="#">Policies & Procedures</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-of-use.html">Terms of Use</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="footer-title">Need Help?</h6>
+          <ul class="footer-links">
+            <li><a href="#"><img src="images/ico-phone.svg" alt="Santi" /> IT Helpdesk Ext: 1234</a></li>
+            <li><a href="#"><img src="images/ico-email.svg" alt="Santi" /> support@sante.com</a></li>
+            <li><a href="#"><img src="images/ico-question.svg" alt="Santi" /> FAQs & Guides</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex justify-content-between align-items-center">
+        <div class="text-reset">Copyright All Rights Reserved 2025 - Sante Private Limited</div>
+        <div class="d-flex align-items-center gap-4">
+          <div class="d-flex gap-3">
+            <a href="#" class="text-reset" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="text-reset" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="text-reset" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="text-reset" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="d-flex gap-3">
+            <a href="privacy-policy.html" class="text-reset">Privacy Policy</a>
+            <a href="terms-of-use.html" class="text-reset">Terms Of use</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
